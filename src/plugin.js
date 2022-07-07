@@ -12,7 +12,7 @@ const plugin = (hook, vm) => {
   });
 
   hook.doneEach(function() {
-    const SELECTOR = '.markdown-section img:not(.emoji)';
+    const SELECTOR = '.markdown-section img:not(.emoji):not([data-no-caption])';
     document.querySelectorAll(SELECTOR).forEach((element) => {
       // captionText != null length == 1: center + caption
       // captionText != null length != 1: inline-block + caption

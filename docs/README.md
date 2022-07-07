@@ -73,6 +73,21 @@ This is a block image .
 It has no title.
 <!-- tabs:end -->
 
+<!-- tabs:start -->
+
+<!-- tab:Markdown -->
+```markdown
+If you want add title to an image, but not display the caption, please use the following HTML label.
+
+<img src='docsify.png' title='title' data-no-caption>
+```
+
+<!-- tab:Preview -->
+If you want add title to an image, but not display the caption, please use the following HTML label.
+
+<img src='docsify.png' title='title' data-no-caption>
+<!-- tabs:end -->
+
 ## How to install
 
 ```html
